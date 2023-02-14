@@ -76,16 +76,44 @@ span {
 }
 input {
     width: 400px;
-    height: 30px;
+    height: 35px;
 }
 fieldset {
     margin-left: 360px;
+    border: none;
 }
 .select {
     position: relative;
-    left: -80px;
+    left: -100px;
     border: none;
 }
 select {
     border: none;
+}
+fieldset button img {
+    width: 25px;
+    margin: 2px;
+}
+.blue {
+    width: 50px;
+    height: 41px;
+    position: relative;
+    background-color: #3366cc;
+    top: 8px;
+    margin-left: -4px;
+}
+.Read {
+    color: #3366cc;
+    background-color: #f5f5f5;
+    border: 1px solid grey;
+    font-weight: 600;
+    width: 320px;
+    padding: 5px;
+    height: 35px;
+    margin: 20px 0px 20px 430px ;
+    margin-left: 430px;
+}
+button select {
+    color: #3366cc;
+    background-color: #f5f5f5;
 }
