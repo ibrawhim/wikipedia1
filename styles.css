@@ -119,17 +119,16 @@ button select {
     background-color: #f5f5f5;
 }
 .all {
-    display: flex;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* row-gap: 1500px; */
+    column-gap: 200px;
     justify-content: space-between;
 }
-.first {
-    display: flex;
-    flex-direction: column;
+.all div div p {
+    margin-left: -500px;
 }
-.firstone, .firsttwo {
+.all div div {
     display: flex;
-    row-gap: 0px;
-}
-section div img {
-    width: 40px;
 }
