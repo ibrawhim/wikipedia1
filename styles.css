@@ -101,6 +101,7 @@ fieldset button img {
     background-color: #3366cc;
     top: 8px;
     margin-left: -4px;
+    border: none;
 }
 .Read {
     color: #3366cc;
@@ -116,4 +117,12 @@ fieldset button img {
 button select {
     color: #3366cc;
     background-color: #f5f5f5;
+}
+.first {
+    display: flex;
+    flex-direction: column;
+}
+.firstone, .firsttwo {
+    display: flex;
+    row-gap: 0px;
 }
