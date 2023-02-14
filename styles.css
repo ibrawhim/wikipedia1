@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .wiki {
     width: 190px;
     margin-left: 40vw;
@@ -122,13 +125,21 @@ button select {
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* row-gap: 1500px; */
     column-gap: 200px;
     justify-content: space-between;
 }
 .all div div p {
     margin-left: -500px;
+    word-break: break-all;
 }
 .all div div {
     display: flex;
+    margin: 30px;
+}
+.first {
+    border: 1px solid;
+}
+.firstone img, .firsttwo img {
+    width: 30px;
+    height: 30px;
 }
