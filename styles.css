@@ -27,7 +27,7 @@ div p {
 .one {
     position: relative;
     top: -200px;
-    left: 470px;
+    left: 490px;
 }
 .two {
     position: relative;
@@ -75,8 +75,8 @@ div p {
     left: -420px;
 }
 .global p strong {
-    color: #36c;
-    font-weight: 900;
+    color: #3366cc;
+    /* font-weight: 900px; */
 }
 
 span {
@@ -84,9 +84,14 @@ span {
     position: relative;
     left: -30px;
 }
+button span {
+    color: white;
+    margin-left: 35px;
+}
 input {
     width: 400px;
-    height: 35px;
+    height: 34px;
+    border-color: #3366cc;
 }
 fieldset {
     margin-left: 360px;
@@ -106,10 +111,10 @@ fieldset button img {
 }
 .blue {
     width: 50px;
-    height: 41px;
+    height: 35px;
     position: relative;
     background-color: #3366cc;
-    top: 8px;
+    top: 6px;
     margin-left: -4px;
     border: none;
 }
@@ -155,13 +160,31 @@ button select {
 .firsttwo  {
     position: relative;
     top: 70px;
-}
-.first {
-    border: 1px solid;
+    height: 200px;
 }
 .firstone img, .firsttwo img {
     width: 30px;
     height: 30px;
+}
+a {
+    text-decoration: none;
+    color: #3366cc;
+}
+.google {
+    margin-bottom: -50px;
+}
+.imageone {
+    width: 110px;
+    height: 40px;
+    position: relative;
+    top: -95px;
+    right: -105px;
+}
+.imagetwo {
+    width: 120px;
+    position: relative;
+    top: -75px;
+    right: -90px;
 }
 .last {
     text-align: center;
