@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+body {
+    overflow-x: hidden;
+    font-family: 'Segoe UI', sans-serif;
+                                                
+}
 .wiki {
     width: 190px;
     margin-left: 40vw;
@@ -70,8 +75,10 @@ div p {
     left: -420px;
 }
 .global p strong {
-    color: #3366cc;
+    color: #36c;
+    font-weight: 900;
 }
+
 span {
     white-space: nowrap;
     position: relative;
@@ -125,16 +132,29 @@ button select {
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 200px;
+    column-gap: 25px;
     justify-content: space-between;
+    
 }
 .all div div p {
-    margin-left: -500px;
-    word-break: break-all;
+    position: relative;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .all div div {
+    width: 265px;
+    height: 50px;
     display: flex;
-    margin: 30px;
+    margin: 10px;
+}
+.all div img {
+    width: 40px;
+    height: 40px;
+}
+.firsttwo  {
+    position: relative;
+    top: 70px;
 }
 .first {
     border: 1px solid;
@@ -142,4 +162,10 @@ button select {
 .firstone img, .firsttwo img {
     width: 30px;
     height: 30px;
+}
+.last {
+    text-align: center;
+    border-top: 1px solid grey;
+    margin: 10px;
+    padding: 10px;
 }
