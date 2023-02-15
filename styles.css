@@ -32,17 +32,22 @@ div p {
 .two {
     position: relative;
     top: -140px;
-    left: 320px;
+    left: 300px;
 }
 .three {
     position: relative;
     top: -80px;
-    left: 200px;
+    left: 170px;
 }
 .four {
     position: relative;
     top: -20px;
     left: 80px;
+}
+.Read img {
+    position: relative;
+    left: -10px;
+    top: 5px;
 }
 .five {
     position: relative;
@@ -74,15 +79,16 @@ div p {
     top: 40px;
     left: -420px;
 }
-.global p strong {
+.global p strong  {
     color: #3366cc;
-    /* font-weight: 900px; */
+    font-family: 'DM Serif Display', serif;
+     font-family: 'Roboto', sans-serif;
 }
-
 span {
     white-space: nowrap;
     position: relative;
     left: -30px;
+    color: black;
 }
 button span {
     color: white;
@@ -91,7 +97,7 @@ button span {
 input {
     width: 400px;
     height: 34px;
-    border-color: #3366cc;
+    border: 2px solid #3366cc;
 }
 fieldset {
     margin-left: 360px;
@@ -120,7 +126,7 @@ fieldset button img {
 }
 .Read {
     color: #3366cc;
-    background-color: #f5f5f5;
+    background-color: #f8f9fa;
     border: 1px solid grey;
     font-weight: 600;
     width: 320px;
