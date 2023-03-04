@@ -20,6 +20,9 @@ div p {
     left: 520px;
     top: 60px;
 }
+.globe img {
+    width: 200px;
+}
 .global {
     display: flex;
     position: relative;
@@ -197,4 +200,9 @@ a {
     border-top: 1px solid grey;
     margin: 10px;
     padding: 10px;
+}
+.firsttwo img {
+    position: relative;
+    left: -20px;
+    top: -10px;
 }
