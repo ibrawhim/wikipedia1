@@ -65,17 +65,18 @@
     }
     .two {
         position: relative;
-        top: 150px;
+        top: 200px;
         left: -120px;
+        z-index: 1;
     }
     .three {
         position: relative;
-        top: 10px;
+        top: 30px;
         left: -120px;
     }
     .four {
         position: relative;
-        top: -20px;
+        top: 10px;
         left: 10px;
     }
     .Read img {
@@ -86,11 +87,11 @@
     .Read {
         position: relative;
         left: -440px;
-        top: 70px;
+        top: 130px;
     }
     .five {
         position: relative;
-        top: 70px;
+        top: 130px;
         left: 30px;
     }
     .six {
@@ -100,28 +101,31 @@
     }
     .seven {
         position: relative;
-        top: -140px;
+        top: -120px;
         left: 10px;
     }
     .eight {
         position: relative;
-        top: -50px;
+        top: -60px;
         left: 20px;
+    }
+    .no {
+        display: none;
     }
     .nine {
         position: relative;
-        top: -99px;
+        top: -10px;
         left: -110px;
     }
     .ten {
         position: relative;
-        top: -120px;
+        top: -90px;
         left: 10px;
     }
     .firstone {
         position: relative;
         left: -50px;
-        margin-bottom: 150px;
+        top: 60px;
         display: flex;
         flex-direction: column;
     }
@@ -140,29 +144,29 @@
     }
     .grid {
         position: relative;
-        left: -500px;
-        top: 160px;
+        left: -460px;
+        top: 250px;
     }
     .grid1 {
         position: relative;
         left: -380px;
-        top: 160px;
+        top: 250px;
     }
     .grid2 {
         position: relative;
         left: -1000px;
-        top: 450px;
+        top: 550px;
     }
-    .firsttwo, .google, .last {
+    .firsttwo {
         position: relative;
-        top: 650px;
+        top: 750px;
     }
     .google {
         position: relative;
-        top: 600px;
+        top: 700px;
     }
     .last {
         position: relative;
-        top: 550px;
+        top: 700px;
     }
 }
