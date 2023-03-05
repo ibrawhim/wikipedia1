@@ -1,7 +1,7 @@
 @media  screen and (max-width: 475px) {
-    html, body {
-        width: 100vw;
-        overflow: scroll;
+    body {
+        width: 400px;
+        overflow-x: hidden;
     }
     
     .wiki {
