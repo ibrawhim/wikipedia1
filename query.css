@@ -65,9 +65,8 @@
     }
     .two {
         position: relative;
-        top: 200px;
+        top: 220px;
         left: -120px;
-        z-index: 1;
     }
     .three {
         position: relative;
@@ -101,12 +100,12 @@
     }
     .seven {
         position: relative;
-        top: -120px;
+        top: -130px;
         left: 10px;
     }
     .eight {
         position: relative;
-        top: -60px;
+        top: -70px;
         left: 20px;
     }
     .no {
@@ -160,6 +159,7 @@
     .firsttwo {
         position: relative;
         top: 750px;
+        left: -30px;
     }
     .google {
         position: relative;
